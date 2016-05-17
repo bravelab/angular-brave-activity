@@ -14,8 +14,8 @@
       files: [
         'src/**/*.js'
       ],
-      concat: 'angular-brave-toastr.js',
-      min: 'angular-brave-toastr.min.js'
+      concat: 'angular-brave-activity.js',
+      min: 'angular-brave-activity.min.js'
     }
   };
 

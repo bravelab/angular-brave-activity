@@ -7,6 +7,7 @@ globals:
   window: true
   beforeEach: true
   inject: true
+  document: true
   _: true
   $: true
 
