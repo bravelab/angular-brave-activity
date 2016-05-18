@@ -3,7 +3,7 @@
 
   angular
     .module('ngBraveActivity')
-    .controller('ActivitiesCtrl', function ActivitiesCtrl($scope, $log, activityService, activitiesConfig) {
+    .controller('ActivitiesCtrl', function ActivitiesCtrl($scope, $log, activityService) {
 
       $scope.activeTab = 'default';
       $scope.currentActivityItems = [];

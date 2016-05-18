@@ -8,11 +8,6 @@
    */
   angular
     .module('ngBraveActivity', [])
-    .value('version', '0.0.1')
-    .constant('activitiesConfig', {
-      templates: {
-        activities: 'bower_components/angular-brave-activity/src/app/activities.html'
-      }
-    })
+    .value('version', '0.0.1');
 
 })();

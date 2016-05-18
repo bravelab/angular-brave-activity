@@ -11,10 +11,10 @@
 
   <!-- notification content -->
   <div class="ajax-notifications custom-scroll" ng-switch="activeTab">
-    <div ng-include="bower_components/angular-brave-activity/src/app/activities/tabs/tab-msgs.html" ng-switch-when="msgs"></div>
-    <div ng-include="bower_components/angular-brave-activity/src/app/activities/tabs/tab-notify.html" ng-switch-when="notify"></div>
-    <div ng-include="bower_components/angular-brave-activity/src/app/activities/tabs/tab-tasks.html" ng-switch-when="tasks"></div>
-    <div ng-include="bower_components/angular-brave-activity/src/app/activities/tabs/tab-default.html" ng-switch-when="default"></div>
+    <div smart-include="bower_components/angular-brave-activity/src/app/tabs/tab-msgs.html" ng-switch-when="msgs"></div>
+    <div smart-include="bower_components/angular-brave-activity/src/app/tabs/tab-notify.html" ng-switch-when="notify"></div>
+    <div smart-include="bower_components/angular-brave-activity/src/app/tabs/tab-tasks.html" ng-switch-when="tasks"></div>
+    <div smart-include="bower_components/angular-brave-activity/src/app/tabs/tab-default.html" ng-switch-when="default"></div>
   </div>
   <!-- end notification content -->
 
